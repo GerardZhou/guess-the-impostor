@@ -128,3 +128,60 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Environment Variables (API keys, secrets)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build files (React frontend)
+build/
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log
+yarn-debug.log
+debug.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Editor-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cache files
+.cache/
+.next/
+out/
+tmp/
+
+# SEO Optimization (Avoid committing unnecessary generated files)
+sitemap.xml
+robots.txt
+public/manifest.json
+public/favicon.ico
+
+# Testing and Debugging
+coverage/
+jest/
+cypress/
+cypress/videos/
+cypress/screenshots/
+
+# Lint and Formatting
+.eslintcache
+.prettierignore
+
+# Ignore local server files
+*.local
+*.log
+*.bak
+
