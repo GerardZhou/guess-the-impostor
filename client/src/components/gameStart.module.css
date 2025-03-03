@@ -1,0 +1,43 @@
+.game-container {
+  text-align: center;
+  background-color: #1e1e2e;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 170, 0.4);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-shadow: 0 0 5px rgba(0, 255, 170, 0.8);
+}
+
+.player-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.player-item {
+  background: linear-gradient(135deg, #0d7377, #14ffec);
+  margin: 10px auto;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 255, 170, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.player-item:hover {
+  transform: scale(1.05);
+}
+
+.impostor {
+  background: linear-gradient(135deg, #ff4a4a, #ff1e1e);
+  color: #fff;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.9);
+}
